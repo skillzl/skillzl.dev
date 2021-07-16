@@ -1,7 +1,7 @@
  export default {
 		about: {
 			image:
-				"https://cdn.discordapp.com/avatars/565960314970177556/a2c58e3aefa7fd6b705a3e92d7665500.png?size=1024",
+				"https://cdn.discordapp.com/avatars/565960314970177556/9d066aec04276ddab7d02df2c165959e.png?size=1024",
 			name: "skillzl",
 			job: "self-thought programmer",
 			description:
