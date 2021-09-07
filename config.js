@@ -1,11 +1,10 @@
  export default {
 		about: {
 			image:
-				"https://i.scdn.co/image/ab6775700000ee859a010e11f3c9578ffbc24418",
+				"https://avatars.githubusercontent.com/u/45903404?s=400&u=9603da950f5d09cef86fc121108af825df260b1d&v=4",
 			name: "skillzl",
 			job: "self-thought programmer",
-			description:
-				"pay attention to the start cause you can always see the end",
+			description: "@jzxcatalin // #7600",
 			socialLinks: [
 				{
 					name: "Github",
@@ -29,7 +28,7 @@
 					name: "Instagram",
 					color: "purple",
 					icon: "fab fa-instagram",
-					to: "https://www.instagram.com/underground.catalin/",
+					to: "https://www.instagram.com/jzxcatalin/",
 				},
 			],
 		},
