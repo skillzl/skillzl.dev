@@ -1,7 +1,7 @@
  export default {
 		about: {
 			image:
-				"https://avatars.githubusercontent.com/u/45903404?s=400&u=9603da950f5d09cef86fc121108af825df260b1d&v=4",
+				"https://avatars.githubusercontent.com/u/45903404?s=400&u=28dc977de05600b699a5390941395d038c9d1985&v=4",
 			name: "skillzl",
 			job: "self-thought programmer",
 			description: "@jzxcatalin // #7600",
