@@ -4,7 +4,7 @@
 				"https://avatars.githubusercontent.com/u/45903404?s=400&u=28dc977de05600b699a5390941395d038c9d1985&v=4",
 			name: "skillzl",
 			job: "self-thought programmer",
-			description: "@jzxcatalin // #7600",
+			description: "@brncatalin",
 			socialLinks: [
 				{
 					name: "Github",
@@ -28,7 +28,7 @@
 					name: "Instagram",
 					color: "purple",
 					icon: "fab fa-instagram",
-					to: "https://www.instagram.com/jzxcatalin/",
+					to: "https://www.instagram.com/bnrcatalin/",
 				},
 			],
 		},
