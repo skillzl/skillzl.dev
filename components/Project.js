@@ -26,6 +26,10 @@ const STATUS_LIST = [
     name: "Closed",
     color: "yellow",
   },
+  {
+    name: "Works without updates",
+    color: "orange",
+  },
 ];
 
 export default function Project({project}) {

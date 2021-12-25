@@ -4,7 +4,7 @@
        "https://avatars.githubusercontent.com/u/45903404?s=400&u=28dc977de05600b699a5390941395d038c9d1985&v=4",
      name: "skillzl",
      job: "self-thought programmer",
-     description: "@bnrcatalin",
+     description: "🌊 - 神奈川沖浪裏",
      socialLinks: [
        {
          name: "Github",
@@ -22,7 +22,7 @@
          name: "Spotify",
          color: "green",
          icon: "fab fa-spotify",
-         to: "https://open.spotify.com/user/gfq8gapgnuydzkz0n34zbkcc7",
+         to: "https://open.spotify.com/user/dhrlak04d9lod939bkxd1k3ct",
        },
        {
          name: "Instagram",
@@ -30,35 +30,41 @@
          icon: "fab fa-instagram",
          to: "https://www.instagram.com/bnrcatalin/",
        },
+       {
+         name: "Steam",
+         color: "blue",
+         icon: "fab fa-steam",
+         to: "https://steamcommunity.com/id/skillzl_me/",
+       },
      ],
    },
    projects: [
      {
-       name: "discord-economy",
+       name: "b1gcheats",
        description:
-         "Open source Discord bot project based on economy features using quickdb as database.",
+         "Community with a free range of resources and designs for popular games and more.",
        status: 3,
-       to: "https://github.com/skillzl/discord-economy",
+       to: "https://github.com/b1gcheats",
      },
      {
-       name: "charliewave-me",
+       name: "chrlwv-project",
        description:
-         "A multipurpose discord client written in javascript. Used to be a freelance start-up project but now it's a public client for all around the world users.",
+         "Multipurpose discord client written in js. Open source website available; client's code is still private due to discord.js v13 upgrade.",
        status: 3,
        to: "https://github.com/charliewave-me",
      },
      {
-       name: "b1gcheats",
+       name: "discord-economy",
        description:
-         "Freelance project based on a YouTube community with a free range of resources and designs for popular market games.",
-       status: 3,
-       to: "https://github.com/b1gcheats",
+         "Open source Discord bot project based on economy features using quickdb as database.",
+       status: 5,
+       to: "https://github.com/skillzl/discord-economy",
      },
      {
        name: "todo/application",
        description:
          "Web application using localStorage to save a to-do list for you.",
-       status: 3,
+       status: 7,
        to: "https://todo.skillzl.me",
      },
    ],

@@ -5,16 +5,12 @@ import PortfolioImage from "../components/PortfolioImage";
 import SocialMedia from "../components/SocialMedia";
 import Projects from "../components/Projects";
 import Layout from "../components/Layout";
-
 import config from "../config";
-
-import Snowfall from "react-snowfall";
 
 function Home() {
   return (
     <Layout>
       <div className="container max-w-screen-lg mx-auto">
-        <Snowfall />
         <div>
           <div className="flex flex-wrap items-start justify-start w-full">
             <PortfolioImage image={config.about.image} />
