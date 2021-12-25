@@ -64,8 +64,8 @@
        name: "todo/application",
        description:
          "Web application using localStorage to save a to-do list for you.",
-       status: 7,
-       to: "https://todo.skillzl.me",
+       status: 5,
+       to: "https://skillzl.me",
      },
    ],
  };
