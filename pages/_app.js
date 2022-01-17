@@ -1,13 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-// start xmas stuff
-import Lightrope from "../components/Lightrope";
-import Snowfall from "react-snowfall";
-// end xmas stuff
-
 import "../styles/index.scss";
-import "../styles/xmas.scss";
 
 function App({ Component, pageProps }) {
   return (
@@ -35,8 +29,6 @@ function App({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-      <Snowfall />
-      <Lightrope />
       <Component {...pageProps} />
     </>
   );
