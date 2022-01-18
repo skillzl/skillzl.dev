@@ -1,7 +1,7 @@
  export default {
    about: {
      image:
-       "https://avatars.githubusercontent.com/u/45903404?s=400&u=28dc977de05600b699a5390941395d038c9d1985&v=4",
+       "https://japi.rest/discord/v1/user/565960314970177556/avatar?size=512",
      name: "skillzl",
      job: "self-thought programmer",
      description: "🌊 - 神奈川沖浪裏",
