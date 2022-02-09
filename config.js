@@ -40,18 +40,18 @@
    },
    projects: [
      {
+      name: "chrlwv",
+      description:
+        "Multipurpose discord client written in js. Open source website available; client's code is still private due to discord.js v13 upgrade.",
+      status: 3,
+      to: "https://github.com/chrlwv",
+     },
+     {
        name: "b1gcheats",
        description:
          "Community with a free range of resources and designs for popular games and more.",
        status: 3,
        to: "https://github.com/b1gcheats",
-     },
-     {
-       name: "chrlwv-project",
-       description:
-         "Multipurpose discord client written in js. Open source website available; client's code is still private due to discord.js v13 upgrade.",
-       status: 3,
-       to: "https://github.com/charliewave-me",
      },
      {
        name: "discord-economy",
