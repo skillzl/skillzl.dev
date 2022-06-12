@@ -50,7 +50,9 @@
     "comment": "Open source Discord bot project based on economy features using quickdb as database.",
     "year": 2020,
     "link": "https://github.com/skillzl/discord-economy",
-    "over": true
+    "over": true,
+    "weblink": "https://github.com/skillzl/discord-economy",
+    "website": true
   },
   {
     "id": 6,
@@ -59,7 +61,9 @@
     "comment": "Web application using localStorage to save a to-do list for you.",
     "year": 2021,
     "link": "https://github.com/skillzl/todo-application",
-    "over": true
+    "over": true,
+    "weblink": "https://todo.skillzl.me",
+    "website": true
   },
   {
     "id": 7,
@@ -67,6 +71,8 @@
     "author": "skillzl",
     "comment": "b1g Cheaters links for cheetos.",
     "year": 2022,
-    "link": "https://github.com/skillzl/b1gcheats-links"
+    "link": "https://github.com/skillzl/b1gcheats-links",
+    "weblink": "https://b1gcheats.xyz",
+    "website": true
   }
 ]

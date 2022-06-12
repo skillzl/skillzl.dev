@@ -10,10 +10,10 @@ interface ProjectProps {
   year: number
   comment: string
   link: string
+  weblink: string
   active?: boolean
   over?: boolean
   website?: boolean
-  weblink: string
 }
 
 export default function Project({ title, author, year, comment, active, over, link, website, weblink }: ProjectProps) {
