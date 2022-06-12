@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "chrlwv",
+    "author": "skillzl",
+    "comment": "Multipurpose discord client written in js. Open source website available; client's code is still private due to discord.js v13 upgrade.",
+    "year": 2018 ,
+    "link": "https://github.com/chrlwv",
+    "active": true,
+    "weblink": "https://chrlwv.tech",
+    "website": true
+  },
+  {
+    "id": 2,
+    "title": "b1gcheats",
+    "author": "skillzl & lptw",
+    "comment": "Community with a free range of resources and designs for popular games and more.",
+    "year": 2019,
+    "link": "https://github.com/b1gcheats",
+    "active": true,
+    "weblink": "https://b1gcheats.xyz",
+    "website": true
+  },
+  {
+    "id": 3,
+    "title": "eloware.software",
+    "author": "skillzl & lptw",
+    "comment": "Upcoming faceit external cs:go cheeto.",
+    "year": 2022,
+    "link": "https://github.com/eloware-win",
+    "active": true,
+    "weblink": "https://eloware.software",
+    "website": true
+  },
+  {
+    "id": 4,
+    "title": "skillzl.me",
+    "author": "skillzl",
+    "comment": "This website, personal portfolio made using next.js.",
+    "year": 2021,
+    "link": "https://github.com/skillzl/skillzl.me",
+    "active": true,
+    "weblink": "https://skillzl.me",
+    "website": true
+  },
+  {
+    "id": 5,
+    "title": "discord-economy",
+    "author": "skillzl",
+    "comment": "Open source Discord bot project based on economy features using quickdb as database.",
+    "year": 2020,
+    "link": "https://github.com/skillzl/discord-economy",
+    "over": true
+  },
+  {
+    "id": 6,
+    "title": "todo/application",
+    "author": "skillzl",
+    "comment": "Web application using localStorage to save a to-do list for you.",
+    "year": 2021,
+    "link": "https://github.com/skillzl/todo-application",
+    "over": true
+  },
+  {
+    "id": 7,
+    "title": "b1gcheats-links",
+    "author": "skillzl",
+    "comment": "b1g Cheaters links for cheetos.",
+    "year": 2022,
+    "link": "https://github.com/skillzl/b1gcheats-links"
+  }
+]
