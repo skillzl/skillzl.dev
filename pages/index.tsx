@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Container>
   <section className="mb-10 sm:flex sm:items-center sm:justify-between">
-   <div className="container mx-auto max-w-sm rounded-lg overflow-hidden shadow-lg my-2 bg-gray-800">
+   <div className="container mx-auto max-w-sm rounded-lg overflow-hidden shadow-lg my-2 dark:bg-gray-800">
     <div className="relative z-10">
       <Image className="w-full"
           src={profilePic}
@@ -20,21 +20,21 @@ export default function Home() {
     <div className="relative flex justify-between items-center flex-row px-6 z-50 -mt-10">
      <br />
     </div>
-    <div className="pt-9 pb-4 text-blue-50 text-center">
+    <div className="pt-9 pb-4 dark:text-blue-50 text-center">
       <p>self-thought programmer</p>
     </div>
     <div className="pb-10 text-center tracking-wide flex justify-around">
       <div className="posts">
         <p className="text-green-500 text-sm">Projects</p>
-        <p className="text-blue-50">8+</p>
+        <p className="dark:text-blue-50">8+</p>
       </div>
       <div className="followers">
         <p className="text-green-500 text-sm">Experience</p>
-        <p className="text-blue-50">4 years</p>
+        <p className="dark:text-blue-50">4 years</p>
       </div>
       <div className="following">
         <p className="text-green-500 text-sm">Languages</p>
-        <p className="text-blue-50">ts, js, go</p>
+        <p className="dark:text-blue-50">ts, js, go</p>
       </div>
     </div>
   </div>
