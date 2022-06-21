@@ -77,7 +77,7 @@ export default function Home() {
               >
                 <h3 className="font-semibold text-lg mb-1">2020</h3>
                 <p className="leading-tight">
-                  Joined <a className="font-bold text-green-900" href="http://b1gcheats.club">b1gcheats.club</a> project as Lead Developer. Started making more changes to the style I used to code my applications.
+                  Joined <a className="font-bold text-green-900" href="http://b1gcheats.xyz">b1gcheats.xyz</a> project as Lead Developer. Started making more changes to the style I used to code my applications.
                 </p>
               </div>
               <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
