@@ -23,17 +23,6 @@
   },
   {
     "id": 3,
-    "title": "eloware.software",
-    "author": "skillzl & lptw",
-    "comment": "Upcoming faceit external cs:go cheeto.",
-    "year": 2022,
-    "link": "https://github.com/eloware-win",
-    "active": true,
-    "weblink": "https://eloware.software",
-    "website": true
-  },
-  {
-    "id": 4,
     "title": "skillzl.me",
     "author": "skillzl",
     "comment": "This website, personal portfolio made using next.js.",
@@ -41,6 +30,17 @@
     "link": "https://github.com/skillzl/skillzl.me",
     "active": true,
     "weblink": "https://skillzl.me",
+    "website": true
+  },
+  {
+    "id": 4,
+    "title": "landing-page",
+    "author": "skillzl",
+    "comment": "Perfect first simple landing page for new users.",
+    "year": 2022,
+    "link": "https://github.com/skillzl/landing-page",
+    "over": true,
+    "weblink": "https://landing.skillzl.me",
     "website": true
   },
   {
