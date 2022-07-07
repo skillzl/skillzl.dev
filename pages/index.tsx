@@ -26,7 +26,7 @@ export default function Home() {
     <div className="pb-10 text-center tracking-wide flex justify-around">
       <div className="posts">
         <p className="text-green-500 text-sm">Projects</p>
-        <p className="dark:text-blue-50">8+</p>
+        <p className="dark:text-blue-50">9+</p>
       </div>
       <div className="followers">
         <p className="text-green-500 text-sm">Experience</p>

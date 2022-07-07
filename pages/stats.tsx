@@ -2,6 +2,7 @@ import Container from 'components/Container'
 
 export default function Stats() {
   return (
+    
     <Container>
       <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
@@ -14,7 +15,7 @@ export default function Stats() {
     <div className="flex flex-wrap -m-4 text-center">
       <div className="p-4 sm:w-1/4 w-1/2">
         <div className="bg-green-500 rounded-lg p-2 xl:p-6">
-            <h2 className="title-font font-medium sm:text-2xl text-3xl text-white">1.27h/day</h2>
+            <h2 className="title-font font-medium sm:text-2xl text-3xl text-white">1.03h/day</h2>
             <p className="leading-relaxed text-gray-100 font-bold">average</p>
         </div>
       </div>
@@ -26,13 +27,13 @@ export default function Stats() {
       </div>
       <div className="p-4 sm:w-1/4 w-1/2">
         <div className="bg-green-500 rounded-lg p-2 xl:p-6">
-            <h2 className="title-font font-medium sm:text-2xl text-3xl text-white">ts, js</h2>
+            <h2 className="title-font font-medium sm:text-2xl text-3xl text-white">ts, js, go</h2>
             <p className="leading-relaxed text-gray-100 font-bold">langs</p>
         </div>
       </div>
       <div className="p-4 sm:w-1/4 w-1/2">
         <div className="bg-green-500 rounded-lg p-2 xl:p-6">
-            <h2 className="title-font font-medium sm:text-2xl text-3xl text-white">8+</h2>
+            <h2 className="title-font font-medium sm:text-2xl text-3xl text-white">9+</h2>
             <p className="leading-relaxed text-gray-100 font-bold">projects</p>
         </div>
       </div>
