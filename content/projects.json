@@ -3,7 +3,7 @@
     "id": 1,
     "title": "chrlwv",
     "author": "skillzl",
-    "comment": "Multipurpose discord client written in js. Open source website available; client's code is still private due to discord.js v13 upgrade.",
+    "comment": "chrlwv is a feature-rich Discord application built in JavaScript for public usage whitch reflects a new and improved UI.",
     "year": 2018 ,
     "link": "https://github.com/chrlwv",
     "active": true,
