@@ -23,9 +23,7 @@ const getAccessToken = async () => {
 }
 
 export default async function getCurrentlyPlaying() {
-  const {
-    access_token: accessToken
-  } = await getAccessToken()
+  const { access_token: accessToken } = await getAccessToken()
 
   return fetch(CURRENTLY_PLAYING_ENDPOINT, {
     headers: {
