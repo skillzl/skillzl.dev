@@ -5,13 +5,13 @@ import 'styles/globals.css'
 import 'styles/prism.css'
 
 function MyApp({ Component, pageProps: { ...pageProps } }: AppProps) {
-return (
-<ThemeProvider attribute="class" defaultTheme="system" disableTransitionOnChange>
-  <AppLayout>
-    <Component {...pageProps} />
-  </AppLayout>
-</ThemeProvider>
-)
+  return (
+    <ThemeProvider attribute="class" defaultTheme="system" disableTransitionOnChange>
+        <AppLayout>
+          <Component {...pageProps} />
+        </AppLayout>
+    </ThemeProvider>
+  )
 }
 
 export default MyApp
