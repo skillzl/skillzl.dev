@@ -1,6 +1,6 @@
 import Container from 'components/Container'
 import Image from 'next/image'
-import profilePic from 'public/images/avatar.png'
+import profilePic from 'public/images/me.jpg'
 
 export default function Home() {
   return (
