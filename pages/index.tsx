@@ -30,7 +30,7 @@ export default function Home() {
       </div>
       <div className="followers">
         <p className="text-green-500 text-sm">Experience</p>
-        <p className="dark:text-blue-50">4 years</p>
+        <p className="dark:text-blue-50">5 years</p>
       </div>
       <div className="following">
         <p className="text-green-500 text-sm">Languages</p>
