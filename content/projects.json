@@ -4,10 +4,10 @@
     "title": "chrlwv",
     "author": "skillzl",
     "comment": "chrlwv is a feature-rich Discord application built in JavaScript for public usage whitch reflects a new and improved UI.",
-    "year": 2018 ,
+    "year": 2018,
     "link": "https://github.com/skillzl/chrlwv-app",
-    "active": true,
-    "weblink": "https://chrlwv.tech",
+    "over": true,
+    "weblink": "https://github.com/skillzl/chrlwv-app",
     "website": true
   },
   {
