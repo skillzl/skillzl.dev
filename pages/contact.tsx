@@ -1,6 +1,8 @@
 import React from 'react';
 import { useForm } from '@formspree/react';
 
+import Head from 'next/head'
+
 export default function Contact() {
   const [state] = useForm("contactForm");
   if (state.succeeded) {
@@ -9,6 +11,9 @@ export default function Contact() {
   return (
     
     <div className="flex items-center justify-center p-12">
+      <Head>
+        <title>skillzl // contact</title>
+      </Head>
       <div className="mx-auto w-full max-w-[550px]">
         <form action="https://formbold.com/s/3Vgj5" method="POST">
           <div className="mb-5">
