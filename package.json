@@ -10,6 +10,9 @@
     "lint": "next lint",
     "prepare": "husky install"
   },
+  "engines" : {
+    "node" : ">=17.0.0 <18.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skillzl/skillzl.dev.git"
