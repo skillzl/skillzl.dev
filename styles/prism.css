@@ -17,7 +17,7 @@
 }
 
 .code-line.inserted {
-  @apply bg-green-500 bg-opacity-20;
+  @apply bg-violet-500 bg-opacity-20;
 }
 
 .code-line.deleted {
@@ -47,7 +47,7 @@
 .token.constant,
 .token.symbol,
 .token.deleted {
-  @apply text-green-700 dark:text-green-500;
+  @apply text-violet-700 dark:text-violet-500;
 }
 
 .token.selector,
@@ -56,7 +56,7 @@
 .token.char,
 .token.builtin,
 .token.inserted {
-  @apply text-green-600 dark:text-green-400;
+  @apply text-violet-600 dark:text-violet-400;
 }
 
 .token.operator,

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Github from 'components/icons/Github'
 import Tooltip from 'components/Tooltip'
 import {
-  ChartPieIcon,
+  PhoneIcon,
   HomeIcon,
   ViewBoardsIcon,
   SunIcon,
@@ -27,9 +27,9 @@ const NAVIGATION = [
   },
   {
     id: 3,
-    href: '/stats',
-    text: 'Stats',
-    icon: <ChartPieIcon />,
+    href: '/contact',
+    text: 'Contact',
+    icon: <PhoneIcon />,
   },
 ]
 
@@ -38,9 +38,9 @@ function NavItem({ href, text, icon }: { href: string; text: string; icon: React
     <Link href={href}>
       <a
         className="group relative ml-1 flex h-14 w-14 flex-shrink-0 snap-end items-center justify-center rounded-2xl
-      border-2 border-green-600 border-opacity-0 bg-gray-200 transition-all hover:scale-110 hover:border-opacity-100
-      active:scale-95 dark:border-green-600 dark:border-opacity-0 dark:bg-gray-800 dark:hover:border-opacity-100
-      dark:hover:shadow-green-500/30 sm:m-0 sm:h-16 sm:w-16 sm:hover:shadow-md sm:hover:shadow-green-200"
+      border-2 border-violet-600 border-opacity-0 bg-gray-200 transition-all hover:scale-110 hover:border-opacity-100
+      active:scale-95 dark:border-violet-600 dark:border-opacity-0 dark:bg-gray-800 dark:hover:border-opacity-100
+      dark:hover:shadow-violet-500/30 sm:m-0 sm:h-16 sm:w-16 sm:hover:shadow-md sm:hover:shadow-violet-200"
       >
         <span className="h-8 w-8 text-gray-400 duration-300 group-hover:scale-125 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-400">
           {icon}
@@ -62,9 +62,9 @@ function DarkmodeButton() {
       onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
       type="button"
       className="group relative ml-1 flex h-14 w-14 flex-shrink-0 snap-end items-center justify-center rounded-2xl
-      border-2 border-green-600 border-opacity-0 bg-gray-200 transition-all hover:scale-110 hover:border-opacity-100
-      active:scale-95 dark:border-green-600 dark:border-opacity-0 dark:bg-gray-800 dark:hover:border-opacity-100
-      dark:hover:shadow-green-500/30 sm:m-0 sm:h-16 sm:w-16 sm:hover:shadow-md sm:hover:shadow-green-200"
+      border-2 border-violdet-600 border-opacity-0 bg-gray-200 transition-all hover:scale-110 hover:border-opacity-100
+      active:scale-95 dark:border-violet-600 dark:border-opacity-0 dark:bg-gray-800 dark:hover:border-opacity-100
+      dark:hover:shadow-violet-500/30 sm:m-0 sm:h-16 sm:w-16 sm:hover:shadow-md sm:hover:shadow-violet-200"
     >
       <span
         className="h-8 w-8 text-gray-400 duration-300 group-hover:scale-125 group-hover:text-gray-500
@@ -95,10 +95,10 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           className="group relative ml-1 flex h-14 w-14 flex-shrink-0 snap-end items-center justify-center rounded-2xl
-          border-2 border-green-600 border-opacity-0 bg-gray-200 shadow-none transition-all hover:scale-110
-          hover:border-opacity-100 active:scale-95 dark:border-green-600 dark:border-opacity-0 dark:bg-gray-800
-          dark:hover:border-opacity-100 dark:hover:shadow-green-500/30 sm:m-0 sm:h-16 sm:w-16 sm:hover:shadow-md
-          sm:hover:shadow-green-200"
+          border-2 border-violet-600 border-opacity-0 bg-gray-200 shadow-none transition-all hover:scale-110
+          hover:border-opacity-100 active:scale-95 dark:border-violet-600 dark:border-opacity-0 dark:bg-gray-800
+          dark:hover:border-opacity-100 dark:hover:shadow-violet-500/30 sm:m-0 sm:h-16 sm:w-16 sm:hover:shadow-md
+          sm:hover:shadow-violet-200"
         >
           <Github className="h-8 w-8 mb-0.5 fill-gray-400 duration-300 group-hover:scale-125 group-hover:fill-gray-500 dark:fill-gray-500 dark:group-hover:fill-gray-400" />
           <Tooltip text="GitHub" />
@@ -108,10 +108,10 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           className="group relative mr-1.5 ml-1 flex h-14 w-14 flex-shrink-0 snap-end items-center justify-center rounded-2xl
-          border-2 border-green-600 border-opacity-0 bg-gray-200 shadow-none transition-all hover:scale-110
-          hover:border-opacity-100 active:scale-95 dark:border-green-600 dark:border-opacity-0 dark:bg-gray-800
-          dark:hover:border-opacity-100 dark:hover:shadow-green-500/30 sm:m-0 sm:h-16 sm:w-16 sm:hover:shadow-md
-          sm:hover:shadow-green-200"
+          border-2 border-violet-600 border-opacity-0 bg-gray-200 shadow-none transition-all hover:scale-110
+          hover:border-opacity-100 active:scale-95 dark:border-violet-600 dark:border-opacity-0 dark:bg-gray-800
+          dark:hover:border-opacity-100 dark:hover:shadow-violet-500/30 sm:m-0 sm:h-16 sm:w-16 sm:hover:shadow-md
+          sm:hover:shadow-violet-200"
         >
           <Instagram className="ml-0.5 mb-0.5 h-8 w-8 fill-gray-400 duration-300 group-hover:scale-125 group-hover:fill-gray-500 dark:fill-gray-500 dark:group-hover:fill-gray-400" />
           <Tooltip text="Instagram" />

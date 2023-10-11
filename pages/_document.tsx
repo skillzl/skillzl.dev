@@ -13,8 +13,8 @@ class MyDocument extends Document {
           <link rel="icon" href="favicon.ico" type="image/x-icon" />
         </Head>
         <body
-          className="bg-gray-100 antialiased selection:bg-green-300 selection:text-green-900
-        dark:bg-gray-900/95 dark:selection:bg-green-300 dark:selection:text-green-900"
+          className="bg-gray-100 antialiased selection:bg-violet-300 selection:text-violet-900
+        dark:bg-gradient-to-tr from-zinc-900 to-gray-800 dark:selection:bg-violet-300 dark:selection:text-violet-900"
         >
           <Main />
           <NextScript />

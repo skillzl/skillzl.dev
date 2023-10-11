@@ -13,7 +13,7 @@ interface ContainerProps {
 const defaultMeta = {
   title: 'skillzl',
   description: 'self-thought programmer',
-  image: 'https://skillzl.me/banner.png',
+  image: 'https://skillzl.dev/banner.png',
   date: '',
 }
 
@@ -31,8 +31,8 @@ export default function Container({
         <title>{title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={description} name="description" />
-        <meta property="og:url" content={`https://skillzl.me${router.asPath}`} />
-        <link rel="canonical" href={`https://skillzl.me${router.asPath}`} />
+        <meta property="og:url" content={`https://skillzl.dev${router.asPath}`} />
+        <link rel="canonical" href={`https://skillzl.dev${router.asPath}`} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="skillzl" />
         <meta property="og:description" content={description} />

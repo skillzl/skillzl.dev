@@ -6,7 +6,7 @@ export default function Project() {
   return (
     <Container>
       <section>
-      <ul className="grid grid-cols-1 justify-items-center gap-8 md:justify-items-start">
+      <ul className="grid grid-cols-1 justify-items-center gap-8 md:justify-items-start ">
         {projects.map(({ id, ...rest }) => (
         <ProjectComponent key={id} {...rest} />
         ))}
