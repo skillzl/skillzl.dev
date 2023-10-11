@@ -20,7 +20,7 @@ export default function Project({ title, author, year, comment, active, over, li
   return (
     <li
       className="font-body max-w-md list-none overflow-hidden rounded-xl bg-white shadow dark:border-gray-700
-    dark:bg-gray-800/90 dark:shadow-black/40 sm:w-full sm:max-w-4xl"
+      dark:bg-gradient-to-tr from-gray-900 to-zinc-900 sm:w-full sm:max-w-4xl"
     >
       <article className="px-6 pt-6 sm:flex sm:pb-6">
         <div className="w-full py-6 sm:py-0 sm:px-6">

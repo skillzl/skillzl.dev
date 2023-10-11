@@ -1,8 +1,8 @@
 import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
-function ContactForm() {
-  const [state, handleSubmit] = useForm("contactForm");
+export default function Contact() {
+  const [state] = useForm("contactForm");
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;
   }
@@ -16,13 +16,13 @@ function ContactForm() {
               htmlFor="name"
               className="mb-3 block text-base font-medium bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent"
             >
-              Full Name
+              Full name
             </label>
             <input
               type="text"
               name="name"
               id="name"
-              placeholder="Full Name"
+              placeholder="full name"
               className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
             />
           </div>
@@ -31,7 +31,7 @@ function ContactForm() {
               htmlFor="email"
               className="mb-3 block text-base font-medium bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent"
             >
-              Email Address
+              E-mail address
             </label>
             <input
               type="email"
@@ -52,7 +52,7 @@ function ContactForm() {
               type="text"
               name="subject"
               id="subject"
-              placeholder="Enter your subject"
+              placeholder="enter your subject"
               className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
             />
           </div>
@@ -67,7 +67,7 @@ function ContactForm() {
               rows={4}
               name="message"
               id="message"
-              placeholder="Type your message"
+              placeholder="type your message"
               className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
             ></textarea>
           </div>
@@ -81,6 +81,5 @@ function ContactForm() {
         </form>
       </div>
     </div>
-  );
+  )
 }
-export default ContactForm;

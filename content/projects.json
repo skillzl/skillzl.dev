@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "chrlwv",
+    "title": "eres",
     "author": "skillzl",
-    "comment": "chrlwv is a feature-rich Discord application built in JavaScript for public usage whitch reflects a new and improved UI.",
-    "year": 2018,
-    "link": "https://github.com/skillzl/chrlwv-app",
-    "over": true,
-    "weblink": "https://github.com/skillzl/chrlwv-app",
-    "website": true
+    "comment": "🍍 Complete journey rewriting the original chrlwv source to discord.js@v14.12.1!",
+    "year": 2023,
+    "link": "https://github.com/skillzl/eres",
+    "weblink": "https://github.com/skillzl/eres",
+    "website": true,
+    "active": true
   },
   {
     "id": 2,
@@ -18,18 +18,18 @@
     "year": 2019,
     "link": "https://github.com/b1gcheats",
     "active": true,
-    "weblink": "https://b1gcheats.xyz",
+    "weblink": "https://b1g.skillzl.dev",
     "website": true
   },
   {
     "id": 3,
-    "title": "skillzl.me",
+    "title": "skillzl.dev",
     "author": "skillzl",
     "comment": "Current website you are seeing; personal portfolio made using next.js.",
     "year": 2021,
-    "link": "https://github.com/skillzl/skillzl.me",
+    "link": "https://github.com/skillzl/skillzl.dev",
     "active": true,
-    "weblink": "https://skillzl.me",
+    "weblink": "https://skillzl.dev",
     "website": true
   },
   {
@@ -40,7 +40,7 @@
     "year": 2022,
     "link": "https://github.com/skillzl/image-api",
     "active": true,
-    "weblink": "https://api.skillzl.me/",
+    "weblink": "https://api.skillzl.dev/",
     "website": true
   },
   {
@@ -51,7 +51,7 @@
     "year": 2022,
     "link": "https://github.com/skillzl/landing-page",
     "over": true,
-    "weblink": "https://landing.skillzl.me",
+    "weblink": "https://landing.skillzl.dev",
     "website": true
   },
   {
@@ -73,7 +73,7 @@
     "year": 2021,
     "link": "https://github.com/skillzl/todo-application",
     "over": true,
-    "weblink": "https://todo.skillzl.me",
+    "weblink": "https://todo.skillzl.dev",
     "website": true
   },
   {
@@ -94,7 +94,18 @@
     "comment": "Markdown file used for b1g Cheaters commynity cheetos links.",
     "year": 2022,
     "link": "https://github.com/skillzl/b1gcheats-links",
-    "weblink": "https://b1gcheats.xyz",
+    "weblink": "https://b1g.skillzl.dev",
+    "website": true
+  },
+  {
+    "id": 10,
+    "title": "chrlwv",
+    "author": "skillzl",
+    "comment": "chrlwv is a feature-rich Discord application built in JavaScript for public usage whitch reflects a new and improved UI.",
+    "year": 2018,
+    "link": "https://github.com/skillzl/chrlwv-app",
+    "over": true,
+    "weblink": "https://github.com/skillzl/chrlwv-app",
     "website": true
   }
 ]
