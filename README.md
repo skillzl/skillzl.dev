@@ -1,5 +1,5 @@
 
-# skillzl.me
+# skillzl.dev
 
 Personal website made using Next.js.
 
@@ -7,8 +7,8 @@ Personal website made using Next.js.
 
 * Getting Started
 ```bush
-git clone https://github.com/skillzl/skillzl.me
-cd skillzl.me
+git clone https://github.com/skillzl/skillzl.dev
+cd skillzl.dev
 yarn
 
 ```
