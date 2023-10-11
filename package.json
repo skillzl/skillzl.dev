@@ -1,6 +1,7 @@
 {
-  "name": "skillzl-website",
-  "private": true,
+  "name": "skillzl.dev",
+  "version": "2.1.0",
+  "description": "✨ : personal portfolio: built using nextjs.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,21 @@
     "lint": "next lint",
     "prepare": "husky install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skillzl/skillzl.dev.git"
+  },
+  "keywords": [
+    "skillzl",
+    "portfolio",
+    "nextjs"
+  ],
+  "author": "skillzl",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/skillzl/skillzl.dev/issues"
+  },
+  "homepage": "https://github.com/skillzl/skillzl.dev#readme",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@heroicons/react": "^1.0.6",
