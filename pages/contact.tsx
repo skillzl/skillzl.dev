@@ -7,7 +7,7 @@ export default function Contact() {
   const [state] = useForm("contactForm");
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;
-  }
+    }
   return (
     
     <div className="flex items-center justify-center p-12">
