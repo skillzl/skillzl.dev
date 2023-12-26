@@ -65,7 +65,7 @@ function Contact() {
           <div>
           <button className="flex justify-center items-center gap-2 w-28 h-12 cursor-pointer rounded-md shadow-2xl text-white font-semibold bg-gradient-to-r from-purple-400 via-purple-600 to-violet-600 hover:shadow-xl hover:shadow-purple-500 hover:scale-105 duration-300 hover:from-violet-600 hover:to-purple-400"
           >
-            Sumbit
+            Submit
             </button>
           </div>
         </form>
