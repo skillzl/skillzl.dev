@@ -45,6 +45,16 @@
   },
   {
     "id": 5,
+    "title": "music-client",
+    "author": "skillzl",
+    "comment": "Discord application that plays music, using discord-player module with play-dl.",
+    "year": 2023,
+    "link": "https://github.com/skillzl/music-client",
+    "active": true,
+    "website": false
+  },
+  {
+    "id": 6,
     "title": "landing-page",
     "author": "skillzl",
     "comment": "New modern style, perfect for a first landing page for new users and their new projects.",
@@ -55,18 +65,17 @@
     "website": true
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "discord-economy",
     "author": "skillzl",
     "comment": "Open source Discord bot project based on economy features using quickdb as database.",
     "year": 2020,
     "link": "https://github.com/skillzl/discord-economy",
     "over": true,
-    "weblink": "https://github.com/skillzl/discord-economy",
-    "website": true
+    "website": false
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "todo/application",
     "author": "skillzl",
     "comment": "Web application using localStorage to save a to-do list for you.",
@@ -77,25 +86,14 @@
     "website": true
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "golang-discord-bot",
     "author": "skillzl",
     "comment": "Personal discordgo application base for learning basic go structures.",
     "year": 2022,
     "link": "https://github.com/skillzl/golang-discord-bot",
     "over": true,
-    "weblink": "https://github.com/skillzl/golang-discord-bot",
-    "website": true
-  },
-  {
-    "id": 9,
-    "title": "b1gcheats-links",
-    "author": "skillzl",
-    "comment": "Markdown file used for b1g Cheaters commynity cheetos links.",
-    "year": 2022,
-    "link": "https://github.com/skillzl/b1gcheats-links",
-    "weblink": "https://b1g.skillzl.dev",
-    "website": true
+    "website": false
   },
   {
     "id": 10,
@@ -105,7 +103,26 @@
     "year": 2018,
     "link": "https://github.com/skillzl/chrlwv-app",
     "over": true,
-    "weblink": "https://github.com/skillzl/chrlwv-app",
+    "website": false
+  },
+  {
+    "id": 11,
+    "title": "chrlwv-website",
+    "author": "skillzl",
+    "comment": "Landing page for chrlwv-tech project written in TypeScript.",
+    "year": 2018,
+    "link": "https://github.com/skillzl/chrlwv-website",
+    "over": true,
+    "weblink": "https://chrlwv.skillzl.dev/",
     "website": true
+  },
+  {
+    "id": 12,
+    "title": "b1gcheats-links",
+    "author": "skillzl",
+    "comment": "Markdown file used for b1g Cheaters commynity cheetos links.",
+    "year": 2022,
+    "link": "https://github.com/skillzl/b1gcheats-links",
+    "website": false
   }
 ]
