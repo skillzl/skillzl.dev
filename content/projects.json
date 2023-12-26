@@ -51,6 +51,7 @@
     "year": 2023,
     "link": "https://github.com/skillzl/music-client",
     "active": true,
+    "weblink": "https://github.com/skillzl/music-client",
     "website": false
   },
   {
@@ -72,6 +73,7 @@
     "year": 2020,
     "link": "https://github.com/skillzl/discord-economy",
     "over": true,
+    "weblink": "https://github.com/skillzl/discord-economy",
     "website": false
   },
   {
@@ -93,6 +95,7 @@
     "year": 2022,
     "link": "https://github.com/skillzl/golang-discord-bot",
     "over": true,
+    "weblink": "https://github.com/skillzl/golang-discord-bot",
     "website": false
   },
   {
@@ -103,6 +106,7 @@
     "year": 2018,
     "link": "https://github.com/skillzl/chrlwv-app",
     "over": true,
+    "weblink": "https://github.com/skillzl/chrlwv-app",
     "website": false
   },
   {
@@ -123,6 +127,7 @@
     "comment": "Markdown file used for b1g Cheaters commynity cheetos links.",
     "year": 2022,
     "link": "https://github.com/skillzl/b1gcheats-links",
+    "weblink": "https://github.com/skillzl/b1gcheats-links",
     "website": false
   }
 ]
