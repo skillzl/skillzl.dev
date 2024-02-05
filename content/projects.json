@@ -39,6 +39,7 @@
     "comment": "Free adless streaming website. Using themoviesdb api and vidsrc api to stream online.",
     "year": 2024,
     "active": true,
+    "link": "https://github.com/skillzl",
     "weblink": "https://watcher.skillzl.dev",
     "website": true
   },
