@@ -13,7 +13,7 @@ function Timeline() {
               <div className="bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto">
                 <h3 className="font-semibold text-lg mb-1">2024</h3>
                 <p className="leading-tight">
-                    Since is the start of this year, nothing much. Continuing to develop <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.fun/">eres.fun</a>.
+                    Since is the start of this year, nothing much. Continuing to develop <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">eres.lol</a>.
                 </p>
               </div>
               <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -33,7 +33,7 @@ function Timeline() {
               <div className="bg-violet-300 bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto">
                 <h3 className="font-semibold text-lg mb-1">2023</h3>
                 <p className="leading-tight">
-                  Took a 6 months break from coding, but after that started a more interactive project. <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.fun/">eres.fun</a>, 
+                  Took a 6 months break from coding, but after that started a more interactive project. <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">eres.lol</a>, 
                   is coming out as a Discord application synced with a express dashboard.
                 </p>
               </div>
