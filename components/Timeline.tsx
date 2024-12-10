@@ -13,7 +13,7 @@ function Timeline() {
               <div className="bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto">
                 <h3 className="font-semibold text-lg mb-1">2024</h3>
                 <p className="leading-tight">
-                  I worked on the <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">eres.lol</a> project, where I added new features and fixed bugs. I also created a new website from scratch for <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">topwatch.md</a>, an e-commerce platform that includes all the features necessary to manage orders and payments.
+                  I worked on the <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">eres.lol</a> project, where I added new features and fixed bugs. I also created a new website from scratch for <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://topwatch.md/">topwatch.md</a>, an e-commerce platform that includes all the features necessary to manage orders and payments.
                 </p>
               </div>
               <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
