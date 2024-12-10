@@ -13,7 +13,7 @@ function Timeline() {
               <div className="bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto">
                 <h3 className="font-semibold text-lg mb-1">2024</h3>
                 <p className="leading-tight">
-                    Since is the start of this year, nothing much. Continuing to develop <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">eres.lol</a>.
+                  I worked on the <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">eres.lol</a> project, where I added new features and fixed bugs. I also created a new website from scratch for <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">topwatch.md</a>, an e-commerce platform that includes all the features necessary to manage orders and payments.
                 </p>
               </div>
               <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -33,8 +33,8 @@ function Timeline() {
               <div className="bg-violet-300 bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto">
                 <h3 className="font-semibold text-lg mb-1">2023</h3>
                 <p className="leading-tight">
-                  Took a 6 months break from coding, but after that started a more interactive project. <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">eres.lol</a>, 
-                  is coming out as a Discord application synced with a express dashboard.
+                I took a six-month break from coding, but I’m back with a more interactive project: the <a className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent" href="https://eres.lol/">eres.lol </a>
+                Discord application, which is synced with an Express dashboard.
                 </p>
               </div>
             </div>

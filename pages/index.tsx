@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Container>
       <Profile />
-      <footer className="mt-10 border-t pt-6 dark:border-gray-800 shadow-2xl" />
+        <footer className="mt-10 border-t pt-6 dark:border-gray-800 shadow-2xl" />
       <Timeline />
     </Container>
   )

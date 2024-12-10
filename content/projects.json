@@ -3,7 +3,7 @@
     "id": 1,
     "title": "eres",
     "author": "skillzl",
-    "comment": "🍍 Complete journey rewriting the original chrlwv source to discord.js@v14.12.1!",
+    "comment": "A multi-purpose Discord client written in Javascript with 46 commands and a highly optimised web application with control over the application's settings. 🍍",
     "year": 2023,
     "link": "https://github.com/skillzl/eres",
     "weblink": "https://eres.lol",
@@ -12,20 +12,31 @@
   },
   {
     "id": 2,
+    "title": "topwatch.md",
+    "author": "skillzl",
+    "comment": "E-commerce web-application built in next.js. Includes tailwindcss & payment process, promocodes, order/users management and more.",
+    "year": 2024,
+    "link": "https://github.com/skillzl",
+    "weblink": "https://topwatch.md",
+    "website": true,
+    "active": true
+  },
+  {
+    "id": 3,
     "title": "b1gcheats",
     "author": "skillzl & lptw",
     "comment": "Community with a free range of resources and designs for popular games and more.",
-    "year": 2019,
+    "year": 2018,
     "link": "https://github.com/b1gcheats",
     "active": true,
     "weblink": "https://b1g.skillzl.dev",
     "website": true
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "skillzl.dev",
     "author": "skillzl",
-    "comment": "Current website you are seeing; personal portfolio made using next.js.",
+    "comment": "📲 This website, next.js as main framework, tailwindcss for design. Simple but with taste 😄",
     "year": 2021,
     "link": "https://github.com/skillzl/skillzl.dev",
     "active": true,
@@ -33,10 +44,10 @@
     "website": true
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "watcher",
     "author": "skillzl",
-    "comment": "Free adless streaming website. Using themoviesdb api and vidsrc api to stream online.",
+    "comment": "🎥 Free adless streaming website for your movies and series. Built in React, tailwindcss and themoviedb.org api.",
     "year": 2024,
     "active": true,
     "link": "https://github.com/skillzl",
@@ -44,10 +55,10 @@
     "website": true
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "image-api",
     "author": "skillzl",
-    "comment": "A simple express server written to generate random pictures by using types.",
+    "comment": "A simple express server written to generate random pictures.",
     "year": 2022,
     "link": "https://github.com/skillzl/image-api",
     "active": true,
@@ -55,7 +66,7 @@
     "website": true
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "music-client",
     "author": "skillzl",
     "comment": "Discord application that plays music, using discord-player module with play-dl.",
@@ -66,7 +77,7 @@
     "website": false
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "landing-page",
     "author": "skillzl",
     "comment": "New modern style, perfect for a first landing page for new users and their new projects.",
@@ -77,7 +88,7 @@
     "website": true
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "discord-economy",
     "author": "skillzl",
     "comment": "Open source Discord bot project based on economy features using quickdb as database.",
@@ -88,7 +99,7 @@
     "website": false
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "todo/application",
     "author": "skillzl",
     "comment": "Web application using localStorage to save a to-do list for you.",
@@ -99,7 +110,7 @@
     "website": true
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "golang-discord-bot",
     "author": "skillzl",
     "comment": "Personal discordgo application base for learning basic go structures.",
@@ -110,7 +121,7 @@
     "website": false
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "chrlwv",
     "author": "skillzl",
     "comment": "chrlwv is a feature-rich Discord application built in JavaScript for public usage whitch reflects a new and improved UI.",
@@ -121,7 +132,7 @@
     "website": false
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "chrlwv-website",
     "author": "skillzl",
     "comment": "Landing page for chrlwv-tech project written in TypeScript.",
@@ -132,7 +143,7 @@
     "website": true
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "b1gcheats-links",
     "author": "skillzl",
     "comment": "Markdown file used for b1g Cheaters commynity cheetos links.",

@@ -39,7 +39,7 @@ export default function Container({
         <meta property="og:title" content={title} />
         <meta property="og:image" content={image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@skillzl47" />
+        <meta name="twitter:site" content="@bnrcatalin" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />

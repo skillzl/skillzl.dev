@@ -14,7 +14,7 @@ function Contact() {
               name="name"
               id="name"
               placeholder="full name"
-              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-white focus:shadow-md"
             />
           </div>
           <div className="mb-5">
@@ -29,7 +29,7 @@ function Contact() {
               name="email"
               id="email"
               placeholder="example@domain.com"
-              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-white focus:shadow-md"
             />
           </div>
           <div className="mb-5">
@@ -44,7 +44,7 @@ function Contact() {
               name="subject"
               id="subject"
               placeholder="enter your subject"
-              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+              className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-white focus:shadow-md"
             />
           </div>
           <div className="mb-5">
@@ -59,7 +59,7 @@ function Contact() {
               name="message"
               id="message"
               placeholder="type your message"
-              className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+              className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-white focus:shadow-md"
             ></textarea>
           </div>
           <div>
