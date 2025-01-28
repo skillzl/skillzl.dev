@@ -1,6 +1,7 @@
 import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'
 import AppLayout from 'layouts/AppLayout'
+
 import 'styles/globals.css'
 import 'styles/prism.css'
 

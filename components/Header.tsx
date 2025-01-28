@@ -1,8 +1,8 @@
-import { ReactNode } from 'react'
+import { ReactNode } from "react";
 
 interface HeaderProps {
-  title: string
-  icon: ReactNode
+  title: string;
+  icon: ReactNode;
 }
 
 export default function Header({ title, icon }: HeaderProps) {
@@ -16,5 +16,5 @@ export default function Header({ title, icon }: HeaderProps) {
       </span>
       <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{title}</h1>
     </header>
-  )
+  );
 }

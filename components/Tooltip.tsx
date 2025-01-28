@@ -8,7 +8,7 @@ function Tooltip({ text }: { text: string }) {
     >
       {text}
     </span>
-  )
+  );
 }
 
-export default Tooltip
+export default Tooltip;
