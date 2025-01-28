@@ -27,7 +27,7 @@ yarn dev
 ## Envoirements 
 ```
 // Github fetch api
-NEXT_PUBLIC_GITHUB_TOKEN=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
+NEXT_PUBLIC_GITHUB_TOKEN=
 
 // Spotify listening api token, client id/secret
 SPOTIFY_REFRESH_TOKEN=
