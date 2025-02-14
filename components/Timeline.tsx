@@ -31,12 +31,12 @@ function Timeline() {
                   created a new website from scratch for{" "}
                   <a
                     className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent"
-                    href="https://topwatch.md/"
+                    href="https://ecom.skillzl.dev/"
                   >
-                    topwatch.md
+                    ecom.skillzl.dev
                   </a>
-                  , an e-commerce platform that includes all the features
-                  necessary to manage orders and payments. Yeah and also I am
+                  , an e-commerce template that includes all the features
+                  necessary to manage orders and payments for your online store. Yeah and also I am
                   student at{" "}
                   <a
                     className="font-bold bg-gradient-to-r from-violet-500 to-purple-500 bg-clip-text text-transparent"
