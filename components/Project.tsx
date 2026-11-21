@@ -1,4 +1,3 @@
-import Badge from "components/Badge";
 import Github from "components/icons/Github";
 import { GlobeAltIcon } from "@heroicons/react/solid";
 
@@ -7,8 +6,8 @@ interface ProjectProps {
   author: string;
   year: number;
   comment: string;
-  link: string;
-  weblink: string;
+  link?: string;
+  weblink?: string;
   active?: boolean;
   over?: boolean;
   website?: boolean;
@@ -19,54 +18,101 @@ export default function Project({
   author,
   year,
   comment,
-  active,
-  over,
+  active = false,
+  over = false,
   link,
-  website,
+  website = false,
   weblink,
 }: ProjectProps) {
   return (
     <li
-      className="font-body max-w-md list-none overflow-hidden rounded-xl bg-white shadow dark:border-gray-700
-      dark:bg-gradient-to-tr from-gray-900 to-zinc-900 sm:w-full sm:max-w-4xl"
+      style={{
+        boxShadow: `
+          0 16px 36px -12px rgba(0, 0, 0, 0.25),
+          inset 0 1px 1px 0 rgba(255, 255, 255, 0.45),
+          inset 0 -1px 1px 0 rgba(255, 255, 255, 0.08)
+        `,
+      }}
+      className="relative w-full max-w-md list-none overflow-hidden rounded-[26px] border border-white/25 bg-white/45 backdrop-blur-2xl backdrop-saturate-150 dark:border-white/15 dark:bg-zinc-900/45 sm:max-w-4xl"
     >
-      <article className="px-6 pt-6 sm:flex sm:pb-6">
-        <div className="w-full py-6 sm:py-0 sm:px-6">
-          <h2 className="mb-1.5 space-x-2 text-xl font-semibold text-gray-900 dark:text-white">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-white/25 to-transparent dark:from-white/[0.07]"
+      />
+
+      <article className="relative z-10 p-6 sm:px-8 sm:py-7">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 className="text-xl font-bold tracking-tight text-zinc-900 dark:text-white">
             {title}
           </h2>
-          <div className="mb-2 sm:flex sm:items-baseline">
-            <p className="space-x-0.5 text-sm text-gray-600 dark:text-gray-400">
-              <span className="text-gray-800 dark:text-gray-300">{author}</span>{" "}
-              <span>&middot;</span>{" "}
-              <span className="pr-0 sm:pr-2">
-                {year} {active && "- current"}
+
+          <div className="flex items-center gap-2">
+            {active && (
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-600/35 bg-emerald-600/15 px-3 py-0.5 text-xs font-semibold tracking-wide text-emerald-600 dark:text-emerald-400">
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-600 ring-2 ring-emerald-400/50" />
+                Active
               </span>
-            </p>
-            {active && <Badge text="Active" color="green" />}
-            {over && <Badge text="Over" color="yellow" />}
-          </div>
-          <p className="py-1 leading-relaxed text-gray-600 dark:text-gray-400">{`${comment}`}</p>
-          <div className="flex space-x-2 flex-row">
-            {link && (
-              <a href={link}>
-                <Github className="h-4 w-4 fill-gray-400 duration-300 hover:fill-black hover:dark:fill-white hover:h-5 hover:w-4" />
-              </a>
             )}
-            <br />
-            {website && (
-              <a href={weblink}>
-                <GlobeAltIcon className="h-4 w-4 fill-gray-400 duration-300 hover:fill-black hover:dark:fill-white hover:h-5 hover:w-4" />
-              </a>
+            {over && (
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-500/30 bg-amber-500/15 px-3 py-0.5 text-xs font-semibold tracking-wide text-amber-700 dark:text-amber-300">
+                <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
+                Over
+              </span>
             )}
           </div>
         </div>
+
+        <div className="mt-1.5 flex flex-wrap items-center gap-2 text-xs font-medium text-zinc-600 dark:text-zinc-400">
+          <span className="font-semibold text-emerald-600 dark:text-emerald-400">
+            {author}
+          </span>
+          <span aria-hidden="true">&middot;</span>
+          <span>
+            {year}
+            {active && " – current"}
+          </span>
+        </div>
+
+        <p className="mt-3.5 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300 sm:text-base">
+          {comment}
+        </p>
+
+        {(link || (website && weblink)) && (
+          <div className="mt-5 flex flex-wrap items-center gap-2.5">
+            {link && (
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${title} GitHub repository`}
+                style={{
+                  boxShadow: "inset 0 1px 0 0 rgba(255, 255, 255, 0.25)",
+                }}
+                className="inline-flex items-center gap-2 rounded-full border border-emerald-600/25 bg-white/40 px-3.5 py-1.5 text-xs font-semibold text-zinc-800 backdrop-blur-md dark:border-emerald-600/30 dark:bg-white/[0.05] dark:text-zinc-200"
+              >
+                <Github className="h-3.5 w-3.5 fill-emerald-600 dark:fill-emerald-400" />
+                <span>Source</span>
+              </a>
+            )}
+
+            {website && weblink && (
+              <a
+                href={weblink}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${title} live website`}
+                style={{
+                  boxShadow: "inset 0 1px 0 0 rgba(255, 255, 255, 0.25)",
+                }}
+                className="inline-flex items-center gap-2 rounded-full border border-emerald-600/30 bg-emerald-600/15 px-3.5 py-1.5 text-xs font-semibold text-emerald-700 backdrop-blur-md dark:text-emerald-300"
+              >
+                <GlobeAltIcon className="h-3.5 w-3.5 fill-emerald-600 dark:fill-emerald-400" />
+                <span>Live</span>
+              </a>
+            )}
+          </div>
+        )}
       </article>
     </li>
   );
 }
-Project.defaultProps = {
-  active: false,
-  over: false,
-  website: false,
-};

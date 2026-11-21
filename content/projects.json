@@ -7,8 +7,9 @@
     "year": 2023,
     "link": "https://github.com/skillzl/eres",
     "weblink": "https://eres.lol",
-    "website": true,
-    "active": true
+    "website": false,
+    "active": false,
+    "over": true
   },
   {
     "id": 2,
@@ -18,8 +19,8 @@
     "year": 2024,
     "link": "https://github.com/skillzl",
     "weblink": "https://ecom.skillzl.dev",
-    "website": true,
-    "active": true
+    "website": false,
+    "active": false
   },
   {
     "id": 3,
@@ -39,9 +40,10 @@
     "comment": "Community with a free range of resources and designs for popular games and more.",
     "year": 2018,
     "link": "https://github.com/b1gcheats",
-    "active": true,
+    "active": false,
     "weblink": "https://b1g.skillzl.dev",
-    "website": true
+    "over": true,
+    "website": false
   },
   {
     "id": 5,
@@ -72,9 +74,10 @@
     "comment": "A simple express server written to generate random pictures.",
     "year": 2022,
     "link": "https://github.com/skillzl/image-api",
-    "active": true,
+    "active": false,
     "weblink": "https://api.skillzl.dev/",
-    "website": true
+    "over": true,
+    "website": false
   },
   {
     "id": 8,
@@ -83,7 +86,7 @@
     "comment": "Discord application that plays music, using discord-player module with play-dl.",
     "year": 2023,
     "link": "https://github.com/skillzl/music-client",
-    "active": true,
+    "active": false,
     "weblink": "https://github.com/skillzl/music-client",
     "website": false
   },
@@ -94,9 +97,9 @@
     "comment": "New modern style, perfect for a first landing page for new users and their new projects.",
     "year": 2022,
     "link": "https://github.com/skillzl/landing-page",
-    "over": true,
+    "over": false,
     "weblink": "https://landing.skillzl.dev",
-    "website": true
+    "website": false
   },
   {
     "id": 10,
@@ -105,7 +108,7 @@
     "comment": "Open source Discord bot project based on economy features using quickdb as database.",
     "year": 2020,
     "link": "https://github.com/skillzl/discord-economy",
-    "over": true,
+    "over": false,
     "weblink": "https://github.com/skillzl/discord-economy",
     "website": false
   },
@@ -116,9 +119,9 @@
     "comment": "Web application using localStorage to save a to-do list for you.",
     "year": 2021,
     "link": "https://github.com/skillzl/todo-application",
-    "over": true,
+    "over": false,
     "weblink": "https://todo.skillzl.dev",
-    "website": true
+    "website": false
   },
   {
     "id": 12,
@@ -127,7 +130,7 @@
     "comment": "Personal discordgo application base for learning basic go structures.",
     "year": 2022,
     "link": "https://github.com/skillzl/golang-discord-bot",
-    "over": true,
+    "over": false,
     "weblink": "https://github.com/skillzl/golang-discord-bot",
     "website": false
   },

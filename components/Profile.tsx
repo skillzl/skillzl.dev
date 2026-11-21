@@ -1,104 +1,151 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import profilePic from "public/images/me.jpg";
-import axios from "axios";
 
-function Profile() {
-  const [repoCount, setRepoCount] = useState(0);
+interface GitHubStats {
+  repos: number | null;
+  years: number | null;
+}
+
+const GITHUB_USERNAME = "skillzl";
+
+export default function Profile() {
+  const [stats, setStats] = useState<GitHubStats>({ repos: null, years: null });
   const [loading, setLoading] = useState(true);
-  const [yearsOfExperience, setYearsOfExperience] = useState(0);
-  const GITHUB_TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
 
   useEffect(() => {
-    const fetchUserData = async () => {
+    const controller = new AbortController();
+
+    async function fetchGitHubProfile() {
       try {
-        const userResponse = await axios.get("https://api.github.com/user", {
-          headers: {
-            Authorization: `token ${GITHUB_TOKEN}`,
-          },
-        });
-
-        const createdAt = new Date(userResponse.data.created_at);
-        const currentDate = new Date();
-        const experience = currentDate.getFullYear() - createdAt.getFullYear();
-
-        setYearsOfExperience(experience);
-
-        const reposResponse = await axios.get(
-          "https://api.github.com/user/repos",
-          {
-            headers: {
-              Authorization: `token ${GITHUB_TOKEN}`,
-            },
-          }
+        const res = await fetch(
+          `https://api.github.com/users/${GITHUB_USERNAME}`,
+          { signal: controller.signal }
         );
-        setRepoCount(reposResponse.data.length);
-      } catch (error) {
-        console.error("Error fetching data:", error);
+        if (!res.ok) throw new Error("Failed to fetch GitHub profile");
+
+        const data = await res.json();
+        const createdAt = new Date(data.created_at);
+        const years = Math.max(
+          1,
+          new Date().getFullYear() - createdAt.getFullYear()
+        );
+
+        setStats({
+          repos: data.public_repos ?? 0,
+          years,
+        });
+      } catch (err) {
+        if ((err as Error).name !== "AbortError") {
+          console.error("GitHub fetch error:", err);
+        }
       } finally {
         setLoading(false);
       }
-    };
+    }
 
-    fetchUserData();
-  }, [GITHUB_TOKEN]);
+    fetchGitHubProfile();
+    return () => controller.abort();
+  }, []);
 
   return (
-    <section className="mb-10 sm:flex sm:items-center sm:justify-between">
-      <div className="container mx-auto max-w-sm rounded-lg overflow-hidden shadow-lg my-2 bg-gray-200 dark:bg-gradient-to-tl from-zinc-900 to-gray-800 border border-[#17182910] backdrop-blur-md">
-        <div className="relative z-10">
+    <section className="relative my-12 flex justify-center px-4">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute -inset-4 mx-auto max-w-sm rounded-[36px] bg-gradient-to-tr from-emerald-600/25 via-emerald-500/15 to-teal-500/20 blur-2xl"
+      />
+
+      <div
+        style={{
+          boxShadow: `
+            0 24px 48px -12px rgba(0, 0, 0, 0.35),
+            inset 0 1px 1px 0 rgba(255, 255, 255, 0.45),
+            inset 0 -1px 1px 0 rgba(255, 255, 255, 0.1)
+          `,
+        }}
+        className="relative w-full max-w-sm overflow-hidden rounded-[32px] border border-white/25 bg-white/45 p-3 backdrop-blur-2xl backdrop-saturate-150 dark:border-white/15 dark:bg-zinc-900/45"
+      >
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-x-0 top-0 z-20 h-32 bg-gradient-to-b from-white/30 to-transparent dark:from-white/10"
+        />
+
+        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[24px] ring-1 ring-emerald-600/30">
           <Image
-            className="w-full"
             src={profilePic}
-            alt="Picture of the author"
+            alt="Catalin Turta"
+            sizes="(max-width: 640px) 100vw, 384px"
             placeholder="blur"
-            quality={85}
+            quality={90}
+            className="object-cover"
           />
-          <div className="text-center absolute w-full">
-            <p className="bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent tracking-wide text-lg font-bold">
-              skillzl
-            </p>
+
+          <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
+
+          <div className="absolute bottom-3 left-1/2 -translate-x-1/2">
+            <span
+              style={{
+                boxShadow: "inset 0 1px 0.5px rgba(255,255,255,0.4)",
+              }}
+              className="inline-flex items-center gap-1.5 rounded-full border border-emerald-600/40 bg-emerald-600/25 px-3.5 py-1 text-xs font-semibold tracking-wider text-white backdrop-blur-xl"
+            >
+              <span className="h-1.5 w-1.5 rounded-full bg-emerald-600 ring-2 ring-emerald-300/70" />
+              @{GITHUB_USERNAME}
+            </span>
           </div>
         </div>
-        <div className="relative flex justify-between items-center flex-row px-6 z-50">
+
+        <div className="relative z-20 mt-4 text-center">
+          <h2 className="text-lg font-semibold tracking-tight text-zinc-900 dark:text-white">
+            Catalin Turta
+          </h2>
+          <p className="mt-0.5 text-sm font-medium text-emerald-600 dark:text-emerald-400">
+            self-taught programmer
+          </p>
         </div>
-        <div className="mt-8 dark:text-blue-50 text-center text-sm font-semibold">
-          <p>Catalin Turta</p>
-        </div>
-        <div className="mt-0.5 mb-2 dark:text-blue-50 text-center text-md font-sans">
-          <p>self-taught programmer</p>
-        </div>
-        <div className="pb-10 text-center tracking-wide flex justify-around">
-          <div className="posts">
-            <p className="bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent text-sm font-bold">
-              Repositories
+
+        <div
+          style={{
+            boxShadow: "inset 0 1px 0 0 rgba(255, 255, 255, 0.25)",
+          }}
+          className="relative z-20 mt-5 grid grid-cols-3 divide-x divide-zinc-900/10 rounded-[22px] border border-emerald-600/20 bg-white/35 py-3.5 text-center backdrop-blur-md dark:divide-white/10 dark:border-emerald-600/25 dark:bg-white/[0.04]"
+        >
+          <div className="px-2">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
+              <span className="text-[9px]">(public)</span> GitHub Repo's
             </p>
             {loading ? (
-              <p>Loading...</p>
+              <div className="mx-auto mt-1.5 h-4 w-8 animate-pulse rounded-md bg-emerald-600/20" />
             ) : (
-              <p className="dark:text-blue-50">{repoCount}</p>
+              <p className="mt-0.5 text-sm font-semibold text-zinc-900 dark:text-white">
+                {stats.repos ?? "—"}
+              </p>
             )}
           </div>
-          <div className="followers">
-            <p className="bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent text-sm font-bold">
+
+          <div className="px-2">
+            <p className="text-[11px] font-semibold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
               Experience
             </p>
             {loading ? (
-              <p>Loading...</p>
+              <div className="mx-auto mt-1.5 h-4 w-10 animate-pulse rounded-md bg-emerald-600/20" />
             ) : (
-              <p className="dark:text-blue-50">{yearsOfExperience} years</p>
+              <p className="mt-0.5 text-sm font-semibold text-zinc-900 dark:text-white">
+                {stats.years ? `${stats.years} yrs` : "—"}
+              </p>
             )}
           </div>
-          <div className="following">
-            <p className="bg-gradient-to-r from-purple-400 to-violet-600 bg-clip-text text-transparent text-sm font-bold">
-              Languages
+
+          <div className="px-2">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
+              Coding Activity
             </p>
-            <p className="dark:text-blue-50">ts, js, go, c</p>
+            <p className="mt-0.5 text-sm font-semibold text-zinc-900 dark:text-white">
+              retired, <span className="text-xs">but still coding as a hobby</span>
+            </p>
           </div>
         </div>
       </div>
     </section>
   );
 }
-
-export default Profile;
