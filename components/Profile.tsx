@@ -70,15 +70,16 @@ export default function Profile() {
           className="pointer-events-none absolute inset-x-0 top-0 z-20 h-32 bg-gradient-to-b from-white/30 to-transparent dark:from-white/10"
         />
 
-        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[24px] ring-1 ring-emerald-600/30">
-          <Image
-            src={profilePic}
-            alt="Catalin Turta"
-            sizes="(max-width: 640px) 100vw, 384px"
-            placeholder="blur"
-            quality={90}
-            className="object-cover"
-          />
+       <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[24px] ring-1 ring-emerald-600/30">
+  <Image
+    src={profilePic}
+    alt="Catalin Turta"
+    fill
+    sizes="(max-width: 640px) 100vw, 384px"
+    placeholder="blur"
+    quality={90}
+    className="object-cover"
+  />
 
           <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
 
