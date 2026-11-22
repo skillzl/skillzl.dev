@@ -71,16 +71,15 @@ export default function Profile() {
         />
 
        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[24px] ring-1 ring-emerald-600/30">
-  <Image
-    src={profilePic}
-    alt="Catalin Turta"
-    layout="fill"
-    objectFit="cover"
-    sizes="(max-width: 640px) 100vw, 384px"
-    placeholder="blur"
-    quality={90}
-  />
+        <Image
+            className="w-full"
+            src={profilePic}
+            alt="Picture of the author"
 
+            placeholder="blur"
+            quality={85}
+
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
 
           <div className="absolute bottom-3 left-1/2 -translate-x-1/2">
