@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import profilePic from "public/images/me.jpg";
 
 interface GitHubStats {
   repos: number | null;
@@ -71,15 +70,11 @@ export default function Profile() {
         />
 
        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[24px] ring-1 ring-emerald-600/30">
-        <Image
-            className="w-full"
-            src={profilePic}
-            alt="Picture of the author"
-
-            placeholder="blur"
-            quality={85}
-
-          />
+         <img
+    src="https://skillzl.dev/images/me.jpg"
+    alt="Catalin Turta"
+    sizes="(max-width: 640px) 100vw, 384px"
+  />
           <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
 
           <div className="absolute bottom-3 left-1/2 -translate-x-1/2">
